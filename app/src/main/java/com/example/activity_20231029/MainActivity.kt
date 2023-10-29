@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         mStuentList.add(StudentData("박진우", 1999, "010-1674-4852"))
         mStuentList.add(StudentData("이보성", 1999, "010-6969-5895"))
         mStuentList.add(StudentData("유세훈", 1999, "010-5162-1515"))
+        mStuentList.add(StudentData("바로나", 1999))
 
         mStdAdapter = StudentAdapter(this, R.layout.student_list_item, mStuentList)
 
